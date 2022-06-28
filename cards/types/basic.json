@@ -1,0 +1,38 @@
+{
+  "config": {
+    "wide_screen_mode": true
+  },
+  "elements": [
+    {
+      "tag": "markdown",
+      "content": "**🗳  Message to** <at email=Email> </at> **:**\nContent"
+    },
+    {
+      "tag": "hr"
+    },
+    {
+      "tag": "note",
+      "elements": [
+        {
+          "tag": "img",
+          "img_key": "img_e344c476-1e58-4492-b40d-7dcffe9d6dfg",
+          "alt": {
+            "tag": "plain_text",
+            "content": "picture"
+          }
+        },
+        {
+          "tag": "plain_text",
+          "content": "Feishu Bot Universal Message Card"
+        }
+      ]
+    }
+  ],
+  "header": {
+    "template": "Red",
+    "title": {
+      "content": "Theme",
+      "tag": "plain_text"
+    }
+  }
+}
