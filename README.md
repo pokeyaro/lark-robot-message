@@ -29,7 +29,7 @@ curl --location --request POST 'http://127.0.0.1:8000/api/robot-msg' \
 --header 'Authorization: Token xxxxxxxxx' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "email": "xxxxxx@gmail.com",
+    "email": "ming@gmail.com",
     "title": "测试标题",
     "content": "测试内容😊: \nPart 01\nPart 02"
 }'
@@ -45,9 +45,12 @@ curl --location --request POST 'http://127.0.0.1:8000/api/robot-msg' \
   "code": 0,
   "msg": "success",
   "data": {
-    "email": "xxxxxx@gmail.com",
+    "email": "ming@gmail.com",
     "title": "测试标题",
     "content": "测试内容😊: \nPart 01\nPart 02"
   }
 }
 ```
+
+![image](https://user-images.githubusercontent.com/58482090/176107615-bb5b36a6-acdb-40cf-bc4c-414d1c4212c3.png)
+
